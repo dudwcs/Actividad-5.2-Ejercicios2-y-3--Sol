@@ -34,7 +34,7 @@
             setcookie($nombre, $valor, $seconds != 0 ? time() + $seconds : $seconds);
 
             header("location: cookies.php");
-            // exit; //comentamos exit para que la tabla se pueda mostrar debajo del formulario
+            exit; 
         }
         ?>
 
