@@ -1,5 +1,4 @@
 <?php
-ob_start();
 ?>
 <!DOCTYPE html>
 <html>
@@ -75,5 +74,4 @@ ob_start();
 
 </html>
 <?php
-ob_end_flush();
 ?>
